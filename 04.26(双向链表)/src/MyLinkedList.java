@@ -168,7 +168,6 @@ public class MyLinkedList {
             this.head.next = null;
             this.head.prev = null;
             this.head = cur;
-            cur = cur.next;
         }
         this.tail = null;
     }

@@ -20,5 +20,7 @@ public class TestDemo {
         list.display();
         System.out.println(list.contains(4));
         System.out.println(list.size());
+        list.clear();
+        list.display();
     }
 }
