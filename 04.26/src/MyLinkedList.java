@@ -25,6 +25,14 @@ public class MyLinkedList {
             this.head = node;
         }
     }
+    public int get(int index) {
+        Node pre = this.head;
+        while(index>0){
+            index--;
+            pre = pre.next;
+        }
+        return pre.data;
+    }
 
     //打印单链表
     public void display() {
@@ -59,6 +67,20 @@ public class MyLinkedList {
             sum++;
         }
         return sum;
+    }
+    public void deleteAtIndex(int index) {
+        if(index==0){
+            this.head=this.head.next;
+            return;
+        }
+        if(index>0||index<size()){
+            Node pre = this.head;
+            while(index-1>0) {
+                pre = pre.next;
+                index--;
+            }
+            pre.next=pre.next.next;
+        }
     }
 
     //返回index-1位置的节点
@@ -408,4 +430,31 @@ public class MyLinkedList {
         return newHead.next;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
