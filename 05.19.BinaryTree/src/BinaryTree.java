@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 /**
  * Author: dts
@@ -118,5 +117,135 @@ public class BinaryTree {
             return 1;
         }
         return getKLevelSize(root.left,k-1)+getKLevelSize(root.right,k-1);
+    }
+
+     // 获取二叉树的高度
+     public int getHeight(Node root) {
+         if (root == null) {
+             return 0;
+         }
+         int left_high = getHeight(root.left);
+         int right_high = getHeight(root.right);
+         return left_high> right_high?left_high+1: right_high+1;
+     }
+
+    // 查找 val 所在结点，没有找到返回 null
+    // 按照 根 -> 左子树 -> 右子树的顺序进行查找  前序遍历的方式
+    // 一旦找到，立即返回，不需要继续在其他位置查找
+    public Node find(Node root, char val) {
+        if (root == null) {
+            return null;
+        }
+        if(root.val == val) {
+            return root;
+        }
+        Node node_left = find(root.left,val);
+        if(node_left==null){
+            return   find(root.right,val);
+        }
+        return node_left;
+    }
+
+    // 层序遍历
+    public void levelOrderTraversal(Node root){
+        if(root==null){
+            return;
+        }
+        Queue<Node> queue = new LinkedList<>();
+        queue.offer(root);
+        while(!queue.isEmpty()){
+            Node cur = queue.poll();
+            if(cur!=null) {
+                System.out.print(cur.val+" ");
+                if (cur.left != null) {
+                    queue.offer(cur.left);
+                }
+                if (cur.right != null) {
+                    queue.offer(cur.right);
+                }
+            }
+        }
+    }
+
+    // 判断一棵树是不是完全二叉树
+    public boolean isCompleteTree(Node root){
+        if(root==null) {
+            return true;
+        }
+        Queue<Node> queue = new LinkedList<>();
+        queue.offer(root);
+        Node cur = queue.poll();
+        while(cur!=null) {
+            queue.offer(cur.left);
+            queue.offer(cur.right);
+            cur = queue.poll();
+        }
+
+
+        while(!queue.isEmpty()){
+            Node pre = queue.poll();
+            if(pre!=null){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    // 前序遍历
+    public void preOrderTraversalNor(Node root){
+        if(root == null) return;
+        Stack<Node> stack = new Stack<>();
+        Node cur = root;
+        while (cur != null || !stack.empty()) {
+            while (cur != null) {
+                stack.push(cur);
+                System.out.print(cur.val + " ");
+                cur = cur.left;
+            }
+            Node top = stack.pop();
+            cur = top.right;
+        }
+        System.out.println();
+    }
+
+    // 中序遍历
+    public void inOrderTraversalNor(Node root){
+        if(root == null) return;
+        Stack<Node> stack = new Stack<>();
+        Node cur = root;
+        while (cur != null || !stack.empty()) {
+            while (cur != null) {
+                stack.push(cur);
+                cur = cur.left;
+            }
+            Node top = stack.pop();
+            System.out.print(top.val + " ");
+            cur = top.right;
+        }
+        System.out.println();
+    }
+
+    // 后序遍历
+    public void pastOrderTraversalNor(Node root){
+        if(root == null) return;
+        Stack<Node> stack = new Stack<>();
+        Node cur = root;
+        Node prev = null;
+        while (cur != null || !stack.empty()) {
+            while (cur != null) {
+                stack.push(cur);
+                cur = cur.left;
+            }
+            cur = stack.peek();
+            if (cur.right == null || cur.right == prev) {
+                System.out.print(cur.val+" ");
+                stack.pop();
+                prev = cur;
+                cur = null;
+            } else {
+                cur = cur.right;
+            }
+        }
+        System.out.println();
     }
 }

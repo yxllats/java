@@ -13,6 +13,11 @@ public class TestDemo {
         System.out.println();
         tree.postOrderTraversal(root);
         System.out.println(tree.getKLevelSize(root, 3));
+        System.out.println(tree.getHeight(root));
+        System.out.println(tree.find(root, 'B').val);
+        tree.levelOrderTraversal(root);
+        System.out.println();
+        System.out.println(tree.isCompleteTree(root));
     }
 }
 
