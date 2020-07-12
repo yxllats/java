@@ -15,4 +15,6 @@ public class web extends HttpServlet {
         //resp.setHeader("Location","https://www.baidu.com/");
         resp.sendError(404,"aa");
     }
+
+
 }
