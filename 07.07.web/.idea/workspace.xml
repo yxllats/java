@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="912f63ee-83e3-4214-8f08-e1f0d12971f6" name="Default Changelist" comment="" />
+    <list default="true" id="912f63ee-83e3-4214-8f08-e1f0d12971f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../07.10.Cookie/lib/servlet-api.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07.09.test1/.idea/artifacts/07_09_test1_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07.09.test1/.idea/artifacts/07_09_test1_Web_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07.09.test1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07.09.test1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07.09.test1/out/artifacts/07_09_test1_Web_exploded/WEB-INF/classes/com/dts/web.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07.09.test1/out/artifacts/07_09_test1_Web_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07.09.test1/src/com/dts/web.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07.09.test1/src/com/dts/web.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +19,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
@@ -20,9 +28,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -45,8 +57,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="6" />
-    <option name="y" value="41" />
+    <option name="x" value="5" />
+    <option name="y" value="40" />
     <option name="width" value="1025" />
     <option name="height" value="980" />
   </component>
@@ -56,7 +68,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -70,20 +81,27 @@
               <item name="07.07.web" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="07.07.web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="07.07.web" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/qq缓存/2357542347/FileRecv/2020-07-07-网络-HTTP协议-Servlet基本API" />
+    <property name="last_opened_file_path" value="E:/qq缓存/2357542347/FileRecv/2020-07-09-网络-HTTP协议-通过Servlet学习HTTP" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -111,16 +129,18 @@
       <updated>1594108419766</updated>
       <workItem from="1594108422976" duration="317000" />
       <workItem from="1594283843852" duration="29000" />
+      <workItem from="1594383847868" duration="34000" />
+      <workItem from="1594384269677" duration="30000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="346000" />
+    <option name="totallyTimeSpent" value="410000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13069706" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13337801" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -164,7 +184,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
@@ -177,7 +201,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -224,6 +247,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
