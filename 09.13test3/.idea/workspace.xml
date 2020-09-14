@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="036cf180-fe53-4ac2-bb4c-6cd457839e53" name="Default Changelist" comment="" />
+    <list default="true" id="423abf5e-5e64-43fd-93cd-25d144aa2a6b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../09.13.test1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../09.13.test1/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +26,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="e#536#537#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="532">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/src.zip!/java/util/PriorityQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="651" selection-start-line="651" selection-end-line="651" />
             </state>
           </provider>
         </entry>
@@ -64,43 +72,40 @@
     <option name="files">
       <list>
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/../09.13.test2/09.13.test2.iml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="511" />
-    <option name="y" value="70" />
+    <option name="x" value="231" />
+    <option name="y" value="121" />
     <option name="width" value="1615" />
     <option name="height" value="930" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="09.13.test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="09.13.test1" type="462c0819:PsiDirectoryNode" />
+              <item name="09.13test3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="09.13test3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../09.13.test2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
@@ -120,7 +125,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="09.13.test1" />
+      <module name="09.13test3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,20 +141,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="036cf180-fe53-4ac2-bb4c-6cd457839e53" name="Default Changelist" comment="" />
-      <created>1599982185443</created>
+      <changelist id="423abf5e-5e64-43fd-93cd-25d144aa2a6b" name="Default Changelist" comment="" />
+      <created>1599984195515</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1599982185443</updated>
-      <workItem from="1599982187134" duration="2604000" />
+      <updated>1599984195515</updated>
+      <workItem from="1599984200548" duration="2665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2604000" />
+    <option name="totallyTimeSpent" value="2665000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="409" y="56" width="1292" height="744" extended-state="1" />
+    <frame x="185" y="97" width="1292" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -161,7 +166,7 @@
       <window_info anchor="bottom" id="Problems" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32843137" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -184,13 +189,17 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="651" selection-start-line="651" selection-end-line="651" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#536#537#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="532">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
