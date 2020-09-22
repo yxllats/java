@@ -42,7 +42,7 @@ public class Solution {
     public static void main(String[] args) {
         //System.out.println(calculate("-2 / 3 - 1"));
         //System.out.println(-2 / 3);
-        String s = "122";
-       String string = Integer.toString(12);
+       // String s = "122";
+       //String string = Integer.toString(12);
     }
 }
