@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/listen" />
+    <file type="web" url="file://$PROJECT_DIR$/listening" />
+    <file type="web" url="file://$PROJECT_DIR$/maven-test" />
+    <file type="web" url="file://$PROJECT_DIR$/stu-info-sys" />
+    <file type="web" url="file://$PROJECT_DIR$/tingshu" />
+    <file type="web" url="file://$PROJECT_DIR$/听书FM" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/stu-info-sys/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-study/pom.xml" />
+        <option value="E:/qq缓存/2357542347/FileRecv/springboot-study/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/听书FM/pom.xml" />
+        <option value="$PROJECT_DIR$/tingshu/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

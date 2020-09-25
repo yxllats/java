@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="bit" class="java.lang.String">
+        <constructor-arg value="小比特"/>
+    </bean>
+
+    <bean id="d1" class="com.Duck">
+        <property name="age" value="1"/>
+        <property name="name" value="aa"/>
+    </bean>
+
+    <bean id="d2" class="com.Duck2">
+        <constructor-arg name="a" value="1"/>
+        <constructor-arg name="n" value="aa"/>
+    </bean>
+
+</beans>
