@@ -6,10 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07e4fe79-11a7-4972-9057-9ad9fc5fa3c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../09.29.test1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../09.29.test1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="07e4fe79-11a7-4972-9057-9ad9fc5fa3c0" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/Fo/target/" />
     <ignored path="$PROJECT_DIR$/maven-test/target/" />
     <ignored path="$PROJECT_DIR$/stu-info-sys/target/" />
@@ -94,7 +91,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stu-info-sys/src/main/java/dts/util/JSONUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
+            <state relative-caret-position="532">
               <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
@@ -109,7 +106,7 @@
         <entry file="file://$PROJECT_DIR$/spring-study/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -281,8 +278,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="861" />
-    <option name="y" value="647" />
+    <option name="x" value="468" />
+    <option name="y" value="477" />
     <option name="width" value="1255" />
     <option name="height" value="725" />
   </component>
@@ -301,6 +298,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -338,7 +336,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -738,6 +735,7 @@
       <workItem from="1600505394032" duration="615000" />
       <workItem from="1601622381643" duration="434000" />
       <workItem from="1601622863593" duration="1335000" />
+      <workItem from="1601737741384" duration="742000" />
     </task>
     <servers />
   </component>
@@ -756,7 +754,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167905000" />
+    <option name="totallyTimeSpent" value="168647000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -768,10 +766,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="689" y="518" width="1004" height="580" extended-state="1" />
+    <frame x="375" y="382" width="1004" height="580" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" id="Project" order="0" visible="true" weight="0.41754758" />
+      <window_info active="true" id="Project" order="0" visible="true" weight="0.42706132" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24959481" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1064,6 +1062,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stu-info-sys/src/main/java/dts/util/JSONUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-study/src/main/resources/applications.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/stu-info-sys/src/main/java/dts/dao/ClassesDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1102,20 +1110,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stu-info-sys/src/main/java/dts/util/JSONUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-study/src/main/resources/applications.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-study/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
