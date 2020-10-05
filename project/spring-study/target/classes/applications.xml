@@ -6,17 +6,28 @@
 
 
     <bean id="bit" class="java.lang.String">
-        <constructor-arg value="小比特"/>
+        <constructor-arg value="xiao"/>
     </bean>
 
-    <bean id="d1" class="com.Duck">
+    <bean id="s1" class="java.lang.String">
+        <constructor-arg value="LadyGaga"/>
+    </bean>
+
+    <bean id="d1" class="dts.Duck3">
+        <constructor-arg name="name" value="酱鸭"/>
+        <constructor-arg name="age" value="3"/>
+    </bean>
+
+    <bean id="d2" class="dts.Duck3">
+        <property name="name" value="甜皮鸭"/>
         <property name="age" value="1"/>
-        <property name="name" value="aa"/>
+        <property name="next" ref="d1"/>
     </bean>
 
-    <bean id="d2" class="com.Duck2">
-        <constructor-arg name="a" value="1"/>
-        <constructor-arg name="n" value="aa"/>
+    <bean id="d3" class="dts.Duck3">
+        <property name="name" value="北京烤鸭"/>
+        <property name="age" value="2"/>
+        <property name="next" ref="d2"/>
     </bean>
 
 </beans>
