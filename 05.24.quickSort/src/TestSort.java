@@ -71,6 +71,7 @@ public class TestSort {
     }
 
     public static void mergeSort(int[] array) {
+
         mergeSortInt(array,0,array.length-1);
     }
 
