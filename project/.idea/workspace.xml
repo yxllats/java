@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="tingshu:war" />
+      <artifact name="stu-info-sys:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07e4fe79-11a7-4972-9057-9ad9fc5fa3c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="07e4fe79-11a7-4972-9057-9ad9fc5fa3c0" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/Fo/target/" />
     <ignored path="$PROJECT_DIR$/maven-test/target/" />
     <ignored path="$PROJECT_DIR$/stu-info-sys/target/" />
@@ -86,11 +84,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://E:/qq缓存/1830474933/FileRecv/springboot-study/src/main/resources/generator/config.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="619">
               <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stu-info-sys/src/test/java/dts/util/DBUtilTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stu-info-sys/src/main/webapp/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="65" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -248,43 +264,42 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
+              <item name="stu-info-sys" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
+              <item name="stu-info-sys" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
+              <item name="stu-info-sys" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
+              <item name="stu-info-sys" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
+              <item name="stu-info-sys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stu-info-sys" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -293,6 +308,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,7 +361,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Generator">
+  <component name="RunManager" selected="Tomcat Server.stu-info-sys">
     <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tool.Generator" />
       <module name="springboot-study" />
@@ -706,6 +722,7 @@
       <workItem from="1601953748700" duration="8928000" />
       <workItem from="1602050943126" duration="877000" />
       <workItem from="1602257270167" duration="40000" />
+      <workItem from="1603014914719" duration="841000" />
     </task>
     <servers />
   </component>
@@ -724,7 +741,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197042000" />
+    <option name="totallyTimeSpent" value="197883000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -737,8 +754,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" id="Project" order="0" visible="true" weight="0.18766756" />
+      <window_info id="Project" order="0" visible="true" weight="0.19034852" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24959481" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -820,40 +838,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-study/src/main/java/dts/Duck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="5" lean-forward="true" selection-end-line="30" />
-          <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-study/src/main/java/dts/Duck2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="25" lean-forward="true" selection-end-line="36" />
-          <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-study/src/main/java/dts/Duck3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1085,6 +1069,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="619">
           <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu-info-sys/src/test/java/dts/util/DBUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu-info-sys/src/main/webapp/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="65" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
         </state>
       </provider>
     </entry>
