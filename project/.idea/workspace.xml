@@ -6,12 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07e4fe79-11a7-4972-9057-9ad9fc5fa3c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../10.21.test4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10.21.test4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stu-info-sys/target/classes/META-INF/stu-info-sys.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tingshu/target/tingshu-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/tingshu/target/tingshu-1.0-SNAPSHOT.war" afterDir="false" />
-    </list>
+    <list default="true" id="07e4fe79-11a7-4972-9057-9ad9fc5fa3c0" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/Fo/target/" />
     <ignored path="$PROJECT_DIR$/maven-test/target/" />
     <ignored path="$PROJECT_DIR$/stu-info-sys/target/" />
@@ -155,8 +150,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tingshu/src/main/java/com/dts/util/DB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="342">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -300,8 +295,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -384,6 +377,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -802,6 +797,7 @@
       <workItem from="1606279345022" duration="1377000" />
       <workItem from="1606293380170" duration="824000" />
       <workItem from="1606376415083" duration="9000" />
+      <workItem from="1606377886779" duration="21000" />
     </task>
     <servers />
   </component>
@@ -820,7 +816,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200816000" />
+    <option name="totallyTimeSpent" value="200837000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -834,7 +830,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" id="Project" order="0" visible="true" weight="0.14008042" />
+      <window_info active="true" id="Project" order="0" visible="true" weight="0.14209116" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24959481" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1183,8 +1179,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tingshu/src/main/java/com/dts/util/DB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="342">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
