@@ -11,6 +11,7 @@ public class TestHeap {
     public int usedSize;
 
     public TestHeap() {
+
         this.elem = new int[10];
     }
 
